@@ -1,0 +1,189 @@
+.container-fluid{
+    background-color: #ACACAB;
+    --bs-gutter-x: -0.5rem !important
+}
+.img{
+    width: 207px;
+    height: 269px;
+}
+
+.custom-shape{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 225px;
+}
+
+.custom-shape .shape-fill {
+    fill: #ffffff;
+}
+
+.img1{
+    width: 273px;
+    height: 300px;
+}
+
+
+
+.custom-shape-divider{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color:#C8C7CC;
+}
+.custom-shape-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 201px;
+}
+
+.custom-shape-divider .shape-fill2 {
+    fill: #000000;
+}
+
+.img2{
+    width: 320px;
+    height: 200px;
+}
+.padd{
+    /* padding: 0px 0px 0px 60px; */
+   padding-left: 8.5rem !important;
+}
+
+
+
+
+.custom-shape-divider1 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #000000;
+}
+
+.custom-shape-divider1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider1 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .padd{
+        padding-left:1.5rem !important;
+    }
+    .padd2{
+        padding-left:3.0rem !important;
+    }
+    .heading{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .img1{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    .img-container{
+        padding-right:3.0rem !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .padd{
+        padding-left:1.5rem !important;
+    }
+    .padd2{
+        padding-left:3.0rem !important;
+    }
+    .heading{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .img1{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    .img-container{
+        padding-right:3.0rem !important;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .padd{
+        padding-left:1.5rem !important;
+    }
+    .padd2{
+        padding-left:3.0rem !important;
+    }
+    .heading{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .img1{
+        height: 200px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    .img-container{
+        padding-right:3.0rem !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img1{
+        width: 273px;
+        height: 300px;
+    }
+    .img2{
+        width: 320px;
+        height: 200px;
+    }
+    .padd{
+        /* padding: 0px 0px 0px 60px; */
+       padding-left: 8.5rem !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .img1{
+        width: 273px;
+        height: 300px;
+    }
+    .img2{
+        width: 320px;
+        height: 200px;
+    }
+    .padd{
+        /* padding: 0px 0px 0px 60px; */
+       padding-left: 8.5rem !important;
+    }
+}

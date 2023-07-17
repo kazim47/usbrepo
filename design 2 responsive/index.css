@@ -1,0 +1,192 @@
+ 
+ *{
+    margin: 0;
+ }
+ .container-main{
+display: grid;
+
+ }
+ .container{
+
+    display: grid;
+   grid-template-columns: 1;
+   grid-template-rows: 1;
+   max-width: 1336px;
+ 
+    }
+    .container1{
+        max-width: 100%;
+        background-color: #000000;
+    }
+
+ .bottom{
+  
+    display: grid;
+    grid-template-rows: 1;
+    width: 0;
+    height: 0;
+    border-bottom: 3rem solid white;
+    border-right: 40rem solid #b7e4ff;
+  
+    border-left: 30rem solid #16266E;
+    border-top: 2rem solid #b7e4ff;
+ }
+ .top{
+
+    position: relative;
+    grid-template-rows: 1;
+    display: grid;
+    width: 0;
+    height: 0;
+    border-right: 30rem solid #16266E;
+    border-top: 3rem solid white;
+    border-left: 40rem solid #B7E4FF;
+    border-bottom: 2rem solid #b7e4ff;
+ }
+
+ .section-1{
+    
+    display: grid;
+    grid-template-rows:1;
+    height: 350px;
+    
+    background-color:#000000; 
+    margin-top: -1px;
+}
+
+.section-2{
+    display: grid;
+    grid-template-rows:1;
+    height: 550px;
+    
+    background-color: #B7E4FF; 
+    margin-top: -1px;
+}
+
+
+/* @media (max-width: 768px) {
+   
+    .bottom2 {
+        border-left: 10rem solid transparent;
+        border-right: 40rem solid transparent;
+        border-top: 8rem solid #0b0b0b;
+    }
+    .section2-1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+    
+      .item1,
+      .item2 {
+        padding: 0;
+        text-align: center;
+      }
+    
+      .img1 {
+        margin: auto;
+      }
+} */
+
+/* @media (max-width: 480px) {
+   
+    .bottom2 {
+        border-left: 5rem solid transparent;
+        border-right: 20rem solid transparent;
+        border-top: 4rem solid #0b0b0b;
+    }
+    .section-2 {
+        height: auto;
+      }
+    
+      .section2-1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+      }
+} */
+
+
+  
+  
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+    .top {
+        display: grid;
+        width: 0px;
+        height: 0px;
+        border-left: 27rem solid transparent;
+        border-right: 9.5rem solid transparent;
+        border-bottom: 10rem solid rgb(0, 50, 95);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .top {
+        display: grid;
+        width: 0;
+        height: 0;
+        border-left: 33rem solid transparent;
+        border-right: 14.5rem solid transparent;
+        border-bottom: 10rem solid #00325F;
+    }
+
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .top {
+        display: grid;
+        width: 0;
+        height: 0;
+        border-left: 44rem solid transparent;
+        border-right: 15.5rem solid transparent;
+        border-bottom: 10rem solid #00325F;
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container-main{
+        display: grid;
+        justify-content: center;
+         }
+         .container{
+        
+            display: grid;
+           grid-template-columns: 1;
+           grid-template-rows: 1;
+           max-width: 1336px;
+           /* margin: 100px auto; */
+           /* justify-content: center; */
+            }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    .top{
+        display: grid;
+        width: 0;
+        height: 0;
+        border-left: 68rem solid transparent;
+        border-right: 15.5rem solid transparent;
+        border-bottom: 13rem solid #00325F;
+      
+    
+}
+
+}  */
+
+/* @media only screen and (max-width: 1338px) and (min-width: 2100px)  {
+
+    .top {
+        display: grid;
+        width: 0;
+        height: 0;
+        border-left: 108rem solid transparent;
+        border-right: 22.5rem solid transparent;
+        border-bottom: 14rem solid #00325F;
+    }
+} */
+
+

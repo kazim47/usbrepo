@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+}
+.container-main {   
+  display: grid;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  max-width: 1336px;
+}
+.container1 {
+  max-width: 100%;
+  background-color: #000000;
+}
+
+.bottom2 {
+  display: grid;
+  grid-template-rows: 1;
+  width: 0;
+  height: 0;
+  border-left: 15.5rem solid transparent;
+  border-right: 68rem solid transparent;
+  border-top: 13rem solid #000000;
+}
+.buttom1 {
+  position: relative;
+  grid-template-rows: 1;
+  display: grid;
+  width: 0;
+  height: 0;
+  border-left: 68rem solid transparent;
+  border-right: 15.5rem solid transparent;
+  border-top: 13rem solid #b8b7bc;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-rows: 1;
+  height: 350px;
+
+  background-color: #000000;
+  margin-top: -1px;
+}
+.section1-1 {
+  background-color: #b8b7bc;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.section-2 {
+  display: grid;
+  grid-template-rows: 1;
+  height: 350px;
+
+  background-color: #000000;
+  margin-top: -1px;
+}
+.section2-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.item2-1 {
+  display: grid;
+
+  justify-content: right;
+  align-items: center;
+
+  padding-right: 71px;
+}
+.item2-2 {
+  color: rgb(255, 255, 255);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  padding-right: 160px;
+}
+.img1-2 {
+  height: 229px;
+  width: 396px;
+}
+.item1-1 {
+  display: grid;
+  justify-content: right;
+  align-items: center;
+  padding-right: 0px;
+
+  padding-right: 71px;
+}
+.item1-2 {
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  padding-right: 160px;
+}
+.img1-1 {
+  height: 306px;
+  width: 343px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container-main {
+    display: grid;
+    justify-content: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    max-width: 1336px;
+  }
+}

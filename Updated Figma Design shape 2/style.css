@@ -1,0 +1,15 @@
+.shape {
+    border-left: 75vw solid transparent;
+    border-right: 25vw solid transparent;
+    border-top: 12vw solid #F7F7FA;
+    background-color: black;
+}
+
+.shape2 {
+    border-left: 25vw solid transparent;
+    border-right: 83vw solid transparent;
+   
+    border-top: 12vw solid black;
+  
+    margin-top: -1.5px;
+}

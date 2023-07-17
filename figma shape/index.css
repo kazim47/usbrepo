@@ -1,0 +1,54 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    justify-content: center;
+  position: relative;
+
+}
+.container{
+  
+    max-width: 84rem; 
+
+}
+.container-item2{
+    width: 0;
+    height: 0;
+    border-left: 66rem solid transparent;
+    border-right: 18rem solid transparent;
+    border-bottom: 13rem solid #F6F5F9;
+}
+
+  
+  .container-item1 {
+
+    height: 0;
+    border-left: 66rem solid transparent;
+    border-right: 35.5rem  solid transparent;
+    border-top: 13rem solid #ffffff;
+    position: relative;
+  }
+  
+ 
+.container-item3{
+    height: 80px;
+}
+.main1{
+   background-color: #FAF9FA;
+}
+.main2{
+    background-color: #FAF9FA;
+}
+
+.carousel-slide{
+  top:10rem;
+  left:10rem;
+  
+  position: absolute;
+}
+.carousel-slide img{
+  
+  width:10rem;
+  height:10rem;
+}
+

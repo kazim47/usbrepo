@@ -1,0 +1,948 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container-main-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: #f7f7fa;
+  padding: 10px;
+  justify-content: center;
+}
+.container1 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 550px 550px;
+
+  gap: 10px;
+
+  padding: 10px;
+  justify-content: center;
+}
+.grid-item-1-1-1 {
+  padding-top: 81px;
+  order: 0;
+}
+.grid-item-1-1-2 {
+  order: 1;
+}
+
+.span {
+  background-color: transparent;
+  color: #2c2c2c;
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  font-weight: 600;
+}
+sup {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero_img {
+  height: auto;
+  width: 480px;
+}
+.heading1 {
+  font-size: 35px !important;
+  color: #0c2074;
+  display: block;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+.btn {
+  color: white;
+  background-color: #de162b;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 25px;
+  border: none;
+}
+
+/* Container2 CSS */
+.container-main-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 30px !important; 
+}
+.container2 {
+  width: auto;
+  
+  display: grid;
+  grid-template-columns: 1100px;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.grid-item-1-2-1 {
+  padding-top: 81px;
+  order: 0;
+}
+.h3-heading {
+  font-size: 34px;
+  font-weight: 900;
+  margin-bottom: 11px;
+  color: #0c2074;
+}
+.ul-list {
+  padding-left: 40px;
+  margin-bottom: 27px;
+  margin-top: 11px;
+}
+
+/* Container3 CSS */
+.container-main-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  justify-content: center;
+}
+.container3 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 1100;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+.grid-item-3-1 {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1100px;
+  height: auto;
+  margin-bottom: 2px;
+  
+}
+.grid-item-3-2 {
+  display: grid;
+  grid-template-columns: 366px 366px 366px;
+  gap: 10px;
+}
+.h2-heading {
+  font-size: 17px;
+}
+.para3 {
+  margin-top: 8px;
+}
+.para3-3 {
+  line-height: 18px;
+  padding-top: 10px;
+}
+
+/* Section No 4 */
+.container-main-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: #f7f7fa;
+  padding: 10px;
+  justify-content: center;
+}
+.container4 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 550px 550px;
+
+  gap: 10px;
+
+  padding: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Debit_img {
+  height: auto;
+  width: 480px;
+}
+
+/* Section No 5 */
+.container-main-5 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  justify-content: center;
+}
+.container5 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 1100px;
+
+  gap: 10px;
+
+  padding: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.grid-item-5-1 {
+  display: grid;
+  grid-template-columns: 800px;
+  margin-bottom: 20px;
+}
+.h2-heading-5 {
+  font-size: 35px;
+  color: #0c2074;
+  font-weight: 900;
+}
+
+.grid-item-5-2 {
+  display: grid;
+  grid-template-columns: 750px 350px;
+}
+
+.grid-item5-2-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img3 {
+  width: 333px;
+  height: auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container1 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+  .grid-item-1-1 {
+    order: 1;
+    margin-top: 30px;
+   
+  }
+  .grid-item-1-2 {
+    display: grid;
+    order: 0;
+    justify-content: center;
+  }
+
+  .hero_img {
+    height: auto;
+    width: 340px;
+    background-position: center center;
+    object-position: center center;
+  }
+  /* section No 2 */
+  .container-main-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    justify-content: center;
+  }
+  .container2 {
+    width: auto;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 300px !important;
+  }
+
+  /* section No 3 */
+  .container3 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 100px !important;
+    
+
+  }
+  .grid-item-3-1 {
+ 
+    display: grid;
+    grid-template-columns: 1fr;
+   
+  }
+  .grid-item-3-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .box{
+    align-self: center;
+  }
+  /* section No 4 */
+  .container-main-4 {
+    margin-top: 300px;
+  }
+  .container4 {
+    width: auto;
+    /* height: 397px; */
+    display: grid;
+    grid-template-columns: 1fr ;
+  
+    gap: 10px;
+  
+    padding: 10px;
+    justify-content: center;
+   
+
+  }
+
+  .Debit_img {
+    height: auto;
+    width: 340px;
+  }
+  .grid-item-4-1{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  /* Section No 5 */
+  .container-main-5 {
+   margin-top: 100px;
+  }
+  .container5 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    gap: 10px;
+  
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .grid-item-5-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+
+  
+  .grid-item-5-2 {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+  .grid-item5-2-1{
+   order: 1;
+  }
+  .grid-item5-2-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    justify-content: center;
+    order: 0;
+  }
+  .grid-item5-2-3{
+    order: 3;
+  }
+  .grid-item5-2-4{
+    order: 2;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+  }
+  .grid-item5-2-5{
+    order: 5;
+  }
+  .grid-item5-2-6{
+    order: 4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    justify-content: center;
+  }
+
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container1 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .grid-item-1-1 {
+    order: 1;
+    
+  }
+  .grid-item-1-2 {
+    display: grid;
+    order: 0;
+    justify-content: center;
+  }
+  /* section No 2 */
+
+  .container-main-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    justify-content: center;
+  }
+  .container2 {
+    width: auto;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 300px !important;
+  }
+ /* section No 3 */
+ 
+ .container3 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 100px !important;
+  
+
+}
+.grid-item-3-1 {
+
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+}
+.grid-item-3-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.box{
+  align-self: center;
+}
+
+  /* section No 4 */
+  .container-main-4 {
+    margin-top: 350px;
+  }
+  .container4 {
+    width: auto;
+    /* height: 397px; */
+    display: grid;
+    grid-template-columns: 1fr ;
+  
+    gap: 10px;
+  
+    padding: 10px;
+    justify-content: center;
+   
+
+  }
+
+  .Debit_img {
+    height: auto;
+    width: 340px;
+  }
+  .grid-item-4-1{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+   /* Section No 5 */
+   .container-main-5 {
+    margin-top: 100px;
+   }
+   .container5 {
+     width: auto;
+     height: 397px;
+     display: grid;
+     grid-template-columns: 1fr;
+   
+     gap: 10px;
+   
+     padding: 10px;
+     justify-content: center;
+     margin-top: 20px;
+   }
+   .grid-item-5-1 {
+     display: grid;
+     grid-template-columns: 1fr;
+     margin-bottom: 20px;
+   }
+ 
+   
+   .grid-item-5-2 {
+     display: grid;
+     grid-template-columns: 1fr ;
+     justify-content: center;
+   }
+   .grid-item5-2-1{
+    order: 1;
+   }
+   .grid-item5-2-2{
+     order: 0;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     display: grid;
+     justify-content: center;
+   }
+   .grid-item5-2-3{
+     order: 3;
+   }
+   .grid-item5-2-4{
+     order: 2;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     display: grid;
+     justify-content: center;
+   }
+   .grid-item5-2-5{
+     order: 5;
+   }
+   .grid-item5-2-6{
+     order: 4;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     display: grid;
+     justify-content: center;
+   }
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container1 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .grid-item-1-1 {
+    order: 1;
+  
+  }
+  .grid-item-1-2 {
+    display: grid;
+    order: 0;
+    justify-content: center;
+  }
+  /* section No 2 */
+
+
+  /* section No 3 */
+  .container3 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 100px !important;
+    
+
+  }
+  .grid-item-3-1 {
+ 
+    display: grid;
+    grid-template-columns: 1fr;
+   
+  }
+  .grid-item-3-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    gap: 10px;
+  }
+  .box{
+    align-self: auto;
+  }
+
+    /* section No 4 */
+    .container-main-4 {
+      margin-top: 70px;
+    }
+    .container4 {
+      width: auto;
+      height: 397px;
+      display: grid;
+      grid-template-columns:335px 411px;
+    
+      gap: 10px;
+    
+      padding: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .Debit_img {
+      height: auto;
+      width: 330px;
+    }
+     /* Section No 5 */
+     .container-main-5 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      background-color: #ffffff;
+      padding: 10px;
+      justify-content: center;
+    }
+    .container5 {
+      width: auto;
+      height: 397px;
+      display: grid;
+      grid-template-columns: 1fr;
+    
+      gap: 10px;
+    
+      padding: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .grid-item-5-1 {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 20px;
+    }
+    
+    
+    .grid-item-5-2 {
+      display: grid;
+      grid-template-columns: 463px 270px;
+    }
+    .img3 {
+      width: 270px;
+      height: auto;
+    }
+    
+     
+     .grid-item5-2-1{
+      order: 0;
+     }
+     .grid-item5-2-2{
+       order: 1;
+     }
+     .grid-item5-2-3{
+       order: 2;
+     }
+     .grid-item5-2-4{
+       order: 3;
+     }
+     .grid-item5-2-5{
+       order: 4;
+     }
+     .grid-item5-2-6{
+       order: 5;
+     }
+  
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Section 1  */
+  .container1 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 482px 482px;
+    grid-template-rows: 1fr;
+
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .grid-item-1-1 {
+    padding-top: 81px;
+    order: 0;
+    
+  }
+  .grid-item-1-2 {
+    order: 1;
+  }
+
+/* section No 2 */
+
+.container2 {
+  width: auto;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 964px;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 30px !important;
+}
+
+/* section No 3 */
+.container3 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+.grid-item-3-1 {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: auto;
+  margin-bottom: 2px;
+}
+.grid-item-3-2 {
+  display: grid;
+  grid-template-columns: 315px 315px 315px;
+  grid-template-rows: 1fr;
+
+  gap: 10px;
+}
+.box{
+  align-self: auto;
+}
+
+ /* section No 4 */
+ .container-main-4 {
+  margin-top: 20px;
+}
+ .container4 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 480px 480px;
+
+  gap: 10px;
+
+  padding: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.grid-item-4-1{
+  display: grid;
+  justify-content: center;
+}
+.Debit_img {
+  height: auto;
+  width: 480px;
+}
+ /* Section No 5 */
+
+ .container5 {
+  width: auto;
+  height: 397px;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: 10px;
+
+  padding: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.grid-item-5-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 20px;
+}
+
+
+.grid-item-5-2 {
+  display: grid;
+  grid-template-columns: 669px 310px;
+}
+
+ 
+ .grid-item5-2-1{
+  order: 0;
+ }
+ .grid-item5-2-2{
+   order: 1;
+ }
+ .grid-item5-2-3{
+   order: 2;
+ }
+ .grid-item5-2-4{
+   order: 3;
+ }
+ .grid-item5-2-5{
+   order: 4;
+ }
+ .grid-item5-2-6{
+   order: 5;
+ }
+
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container1 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .grid-item-1-1 {
+    padding-top: 81px;
+    order: 0;
+
+  }
+  .grid-item-1-2 {
+    order: 1;
+  }
+  /* section No 2 */
+  .container2 {
+    width: auto;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1100px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 30px !important;
+  }
+ 
+  /* section No 3 */
+  .container3 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1100px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .grid-item-3-1 {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1100px;
+    height: auto;
+    margin-bottom: 2px;
+  }
+  .grid-item-3-2 {
+    display: grid;
+    grid-template-columns: 366px 366px 366px;
+    gap: 10px;
+  }
+  .box{
+    align-self: auto;
+  }
+
+   /* section No 4 */
+   .container-main-4 {
+    margin-top: 20px;
+  }
+   .container4 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 550px 550px;
+  
+    gap: 10px;
+  
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .grid-item-4-1{
+    display: grid;
+    justify-content: start;
+  }
+  
+  .Debit_img {
+    height: auto;
+    width: 480px;
+  }
+
+   /* Section No 5 */
+   .container5 {
+    width: auto;
+    height: 397px;
+    display: grid;
+    grid-template-columns: 1100px;
+  
+    gap: 10px;
+  
+    padding: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .grid-item-5-1 {
+    display: grid;
+    grid-template-columns: 800px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .grid-item-5-2 {
+    display: grid;
+    grid-template-columns: 750px 350px;
+  }
+   
+  
+   
+   .grid-item5-2-1{
+    order: 0;
+   }
+   .grid-item5-2-2{
+     order: 1;
+   }
+   .grid-item5-2-3{
+     order: 2;
+   }
+   .grid-item5-2-4{
+     order: 3;
+   }
+   .grid-item5-2-5{
+     order: 4;
+   }
+   .grid-item5-2-6{
+     order: 5;
+   }
+
+
+}

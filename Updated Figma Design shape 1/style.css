@@ -1,0 +1,32 @@
+.main-container{
+    
+    position: relative;
+}
+
+
+  
+  .container-item1 {
+    border-left: 69.25vw solid #d8d8d8;
+    border-right: 30vw  solid #d8d8d8;
+    border-top: 12rem solid #ffffff;
+    border-bottom: 68vw solid #d8d8d8;
+    }
+  
+ 
+
+.main1{
+   position:relative;
+
+   overflow: hidden;
+}
+
+
+
+
+
+.main1 .container-item1 .component-container {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	top: 20%;
+	}
